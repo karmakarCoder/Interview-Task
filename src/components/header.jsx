@@ -114,7 +114,12 @@ const Header = () => {
              xl:gap-10 font-normal text-base text-secondarycolor"
           >
             {["All Category", "Coupon", "Support"].map((item, index) => (
-              <li key={index} className="flex items-center cursor-pointer">
+              <Link
+                onClick={() => setopen(false)}
+                href={item.toLocaleLowerCase()}
+                key={index}
+                className="flex items-center cursor-pointer"
+              >
                 {item}{" "}
                 {item == "All Category" && (
                   <span className="text-4xl">
@@ -122,7 +127,7 @@ const Header = () => {
                     <RiArrowDropDownLine />
                   </span>
                 )}
-              </li>
+              </Link>
             ))}
           </ul>
         </div>
