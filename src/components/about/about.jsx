@@ -10,13 +10,12 @@ const AboutUs = () => {
             About us
           </h4>
           <p className="font-kumbh_sans font-normal text-lg xl:text-3xl text-thirdTextColor">
-            Welcome to [Your Company Name]. Before using our logo design
-            service, please carefully review the following Terms and Conditions,
-            as they govern the contractual relationship between you (the
-            "Client") and [Your Company Name] (the "Service Provider"). By using
-            our logo design service, you acknowledge that you have read,
-            understood, and agreed to these Terms and Conditions in their
-            entirety.
+            Welcome to Your Company Name. Before using our logo design service,
+            please carefully review the following Terms and Conditions, as they
+            govern the contractual relationship between you the Client and Your
+            Company Name the Service Provider. By using our logo design service,
+            you acknowledge that you have read, understood, and agreed to these
+            Terms and Conditions in their entirety.
           </p>
           <h4 className="font-roboto py-5 lg:py-20 font-bold text-2xl xl:text-[80px] text-primarycolor">
             → Scope of Service
